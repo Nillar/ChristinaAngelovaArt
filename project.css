@@ -1,10 +1,12 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lemonada:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,600i');
-html {
+html.login-register-form {
     height: 100%;
     width: 100%;
     margin: 0px;
+    background: radial-gradient(ellipse at center, rgba(46,114,148,1) 0%, rgba(37,69,87,1) 68%, rgba(34,56,69,1) 88%, rgba(34,56,69,1) 93%) no-repeat;
+    background-size: cover;
 }
 body {
     font-family: 'Lemonada',sans-serif;
@@ -12,11 +14,13 @@ body {
     font-size: 24px;
     min-height: 100%;
     margin: 0;
-
+    background-size: cover;
 }
 .container {
     margin: 0 auto;
     text-align: center;
+
+
 }
 
 .login, .register {
@@ -103,6 +107,12 @@ span {
     border: none;
 }
 
+.register-button:hover,
+.login-button:hover {
+    cursor: pointer;
+    background-color: #e2b645;
+}
+
 a{
     font-family: "Raleway",sans-serif;
     font-style: italic;
@@ -135,6 +145,12 @@ i.fa-twitter{
     height: 40px;
     padding: 15px;
     border-radius: 50%;
+}
+
+i.fa-facebook:hover,
+i.fa-google:hover,
+i.fa-twitter:hover {
+    color: #F9C751;
 }
 
 .fa-user,
