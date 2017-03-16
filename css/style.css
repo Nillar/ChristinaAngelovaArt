@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Libre+Baskerville:400,600,700|Poppins:400,500,700|Titillium+Web:400,600,900');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1920px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Libre, sans-serif;
+    font-size: 18px;
+}
+
+.site-top-nav {
+    background-color: #F7F7F7;
+}
+
+.site-top-nav ul {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.site-top-nav > ul > li {
+    display: inline-flex;
+}
+
+.site-top-nav a {
+    font-family: Baskerville, sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-shrink: 1;
+    padding: 30px 15px;
+}
+
+li.home {
+    background: #EEEEEE;
+}
+
+.site-top-nav li:hover {
+    background: #EEEEEE;
+    cursor: pointer;
+}
+
+#menu-icon {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background: #4C8FEC url("../img/menu-icon.png") no-repeat center;
+}
+
+a:hover#menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+}
+
+.landing-page {
+    position: relative;
+    background: url("../img/1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+}
+
+.landing-page article {
+    position: relative;
+    bottom: -140px;
+    width: 550px;
+    height: 100px;
+    background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.65) 25%, rgba(0, 0, 0, 0.65) 75%, transparent 100%);
+    border-radius: 50px;
+}
+
+.landing-page article h1 {
+    font-size: 1.8em;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    padding: 20px 25px;
+}
+
+/*@media screen and(min-width: 610px) {*/
+/*.site-header ul li {*/
+/*display: block;*/
+/*width: 100%;*/
+/*text-align: center;*/
+/*}*/
+/*}*/
+
+@media all and (max-width: 880px) {
+    /*.business { display:block;}*/
+    /*.learn-more {*/
+    /*display: block;*/
+    /*margin-bottom: 25px;*/
+    /*}*/
+    /*.business article {text-align:center;}*/
+    /*article p { max-width:100%; }*/
+    /*main h2 { font-size: 1.4em; }*/
+    .nav-ul {
+        display: none;
+        height: auto;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+    }
+
+    nav li {
+        background: #f6f6f6;
+    }
+
+    nav:hover ul.nav-ul {
+        display: block;
+    }
+}
