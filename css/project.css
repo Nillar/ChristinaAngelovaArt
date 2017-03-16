@@ -1,0 +1,192 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lemonada:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,600i');
+html.login-register-form {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background: radial-gradient(ellipse at center, rgba(46,114,148,1) 0%, rgba(37,69,87,1) 68%, rgba(34,56,69,1) 88%, rgba(34,56,69,1) 93%) no-repeat;
+    background-size: cover;
+}
+body {
+    font-family: 'Lemonada',sans-serif;
+    background: radial-gradient(ellipse at center, rgba(46,114,148,1) 0%, rgba(37,69,87,1) 68%, rgba(34,56,69,1) 88%, rgba(34,56,69,1) 93%) no-repeat;
+    font-size: 24px;
+    min-height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login, .register {
+    text-align: center;
+    min-width: 550px;
+    max-width: 650px;
+    min-height: 650px;
+    max-height: 800px;
+    border: 4px dashed #F9C751;
+    border-radius: 20px;
+    vertical-align: top;
+    margin: 100px 20px;
+    display: inline-block;
+    padding: 30px;
+
+}
+
+p {
+    color: white;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
+h1{
+    text-transform: capitalize;
+    color: #F9C751;
+    margin-top: 0;
+    font-size: 1.2em;
+
+}
+label {
+    display: block;
+    height: 72px;
+    margin: 10px;
+
+}
+input {
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: rgba(70, 85, 83, 0.3);
+    border: none;
+    box-shadow: 0px 0px 5px white;
+    color: white;
+    font-size: 0.6em;
+    position: relative;
+    right: 15px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -6px;
+}
+
+span {
+    font-family: "Raleway",sans-serif;
+    text-wrap: normal;
+    color: #f2f2f2;
+    margin-left:15px;
+    font-size: 0.8em;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.register-button,
+.login-button {
+    font-family: "Lemonada", sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 15px 30px;
+    background-color: #F9C751;
+    color: #f2f2f2;
+    text-shadow: 0 0 6px black;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.register-button:hover,
+.login-button:hover {
+    cursor: pointer;
+    background-color: #e2b645;
+}
+
+a{
+    font-family: "Raleway",sans-serif;
+    font-style: italic;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+ul li {
+    display: inline-block;
+    float: right;
+    padding-right: 50px;
+    font-size: 28px;
+}
+
+.alternative-login h2 {
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 0;
+    color: #f2f2f2;
+    font-size: 1.2em;
+}
+i.fa-facebook,
+i.fa-google,
+i.fa-twitter{
+    font-size: 2.3em;
+    color: #f2f2f2;
+    background: rgba(69, 73, 76, 0.71);
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+i.fa-facebook:hover,
+i.fa-google:hover,
+i.fa-twitter:hover {
+    color: #F9C751;
+}
+
+.fa-user,
+.fa-lock{
+    font-size: 1.2em;
+    color: #f2f2f2;
+    position: relative;
+    left: 35px;
+    bottom: -5px;
+
+
+}
+.newsletter-and-terms {
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+i.fa-arrow-right,
+i.fa-plus{
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    bottom: -30px;
+    right: -10px;
+    content: "\f061";
+    font-size: 35px;
+    background: #F9C751;
+    padding: 12px;
+    border-radius: 50%;
+    color: rgba(70, 85, 83, 1);;
+    border: 10px solid rgba(70, 85, 83, 1);
+    font-weight: bold;
+}
+
+form>p,
+form>h1 {
+    position: relative;
+    left: -45px;
+}
