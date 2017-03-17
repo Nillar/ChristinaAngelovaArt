@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Libre+Baskerville:400,600,700|Poppins:400,500,700|Titillium+Web:400,600,900');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Libre+Baskerville:400,600,700|Poppins: 300, 400,500,700|Titillium+Web:400,600,900|Baloo Bhaina: 400|Clicker Script: 400');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 * {
     margin: 0 auto;
@@ -54,9 +55,12 @@ li.home {
 
 #menu-icon {
     display: none;
-    width: 20px;
-    height: 20px;
-    background: #4C8FEC url("../img/menu-icon.png") no-repeat center;
+    width: 12px;
+    height: 9px;
+    background: transparent url("../img/menu-icon.png") no-repeat center;
+    padding: 25px;
+    position: absolute;
+    border-radius: 25px;
 }
 
 a:hover#menu-icon {
@@ -65,7 +69,6 @@ a:hover#menu-icon {
 }
 
 .landing-page {
-    position: relative;
     background: url("../img/1.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 700px;
@@ -73,19 +76,90 @@ a:hover#menu-icon {
 
 .landing-page article {
     position: relative;
-    bottom: -140px;
-    width: 550px;
-    height: 100px;
-    background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.65) 25%, rgba(0, 0, 0, 0.65) 75%, transparent 100%);
-    border-radius: 50px;
+    bottom: -250px;
+    width: 750px;
+    border-radius: 15px;
+    text-shadow: 0  0 18px black;
+    /*background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.65) 25%, rgba(0, 0, 0, 0.65) 75%, transparent 100%);*/
+    /*background: rgba(44, 44, 44, 0.54);*/
+    /*text-shadow: 48px 48px 12px rgba(243, 245, 245, 0.77);*/
+    /*box-shadow: 6px 6px 141px -16px rgba(255,255,255,1);*/
 }
 
 .landing-page article h1 {
-    font-size: 1.8em;
-    color: white;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 2.4em;
+    line-height: 70px;
+    color: #ffffff;
     opacity: 1;
     text-align: center;
-    padding: 20px 25px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.landing-page article h1.names{
+    text-align: center;
+    border-bottom: 3px solid white;
+    width: 75%;
+}
+
+.landing-page article h2 {
+    font-family: "Clicker Script",sans-serif;
+    font-size: 2.8em;
+    color: white;
+    margin: 10px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+div.advantages {
+    background-color: #01A2A6;
+}
+
+.articles {
+    text-align: center;
+}
+
+.advantages .articles article {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.fa-lastfm:before {
+    content: "\f202";
+    color: white;
+    opacity: 0.95;
+    text-shadow: 0px 0px 5px black;
+}
+
+.articles h3 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    color: white;
+    opacity: 0.95;
+    text-shadow: 0px 0px 5px black;
+}
+
+.articles p {
+    text-align: justify;
+    padding-top: 10px;
+    color: white;
+    opacity: 0.95;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+.container #additional-information {
+    text-align: center;
+    width: 90%;
+    padding: 30px 0 30px 0;
+}
+
+.container #additional-information h2 {
+    text-align: center;
 }
 
 /*@media screen and(min-width: 610px) {*/
@@ -96,7 +170,7 @@ a:hover#menu-icon {
 /*}*/
 /*}*/
 
-@media all and (max-width: 880px) {
+@media all and (max-width: 920px) {
     /*.business { display:block;}*/
     /*.learn-more {*/
     /*display: block;*/
@@ -105,6 +179,10 @@ a:hover#menu-icon {
     /*.business article {text-align:center;}*/
     /*article p { max-width:100%; }*/
     /*main h2 { font-size: 1.4em; }*/
+    body {
+        font-size: 12px;
+    }
+
     .nav-ul {
         display: none;
         height: auto;
@@ -112,18 +190,50 @@ a:hover#menu-icon {
 
     #menu-icon {
         display: inline-block;
+        border-radius: 15px;
+    }
+
+    .site-top-nav {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
     }
 
     nav li {
         text-align: center;
         width: 100%;
+        background: #f6f6f6;
     }
 
-    nav li {
-        background: #f6f6f6;
+    .site-top-nav a {
+        padding: 25px;
+        font-size: 1.2em;
     }
 
     nav:hover ul.nav-ul {
         display: block;
+        width: 100%;
+    }
+
+    .landing-page article {
+        width: 70%;
+
+    }
+
+    .advantages .articles article {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .advantages .articles article h3,
+    .advantages .articles article p {
+        font-size: 1.4em;
+    }
+    .advantages .articles article p {
+        padding-bottom: 20px;
+        font-size: 1.2em;
+    }
+    .advantages .articles article i {
+        padding-top: 10px;
     }
 }
