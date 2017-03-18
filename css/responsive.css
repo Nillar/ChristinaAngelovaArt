@@ -1,0 +1,77 @@
+@media all and (max-width: 920px) {
+    /*.business { display:block;}*/
+    /*.learn-more {*/
+    /*display: block;*/
+    /*margin-bottom: 25px;*/
+    /*}*/
+    /*.business article {text-align:center;}*/
+    /*article p { max-width:100%; }*/
+    /*main h2 { font-size: 1.4em; }*/
+    body {
+        font-size: 12px;
+    }
+
+    .nav-ul {
+        display: none;
+        height: auto;
+    }
+
+    #menu-icon {
+        display: inline-block;
+        border-radius: 15px;
+    }
+
+    .site-top-nav {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        background: #f6f6f6;
+    }
+
+    .site-top-nav a {
+        padding: 25px;
+        font-size: 1.2em;
+    }
+
+    nav:hover ul.nav-ul {
+        display: block;
+        width: 100%;
+    }
+
+    .landing-page article {
+        width: 70%;
+
+    }
+
+    .advantages .articles article {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .advantages .articles article h3,
+    .advantages .articles article p {
+        font-size: 1.4em;
+    }
+
+    .advantages .articles article p {
+        padding-bottom: 20px;
+        font-size: 1.2em;
+    }
+
+    .advantages .articles article i {
+        padding-top: 10px;
+    }
+
+    .speed-draw div {
+        display: block;
+
+        margin: 10px;
+        text-align: center;
+    }
+}
