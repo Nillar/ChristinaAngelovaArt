@@ -51,6 +51,7 @@ li.home {
 .site-top-nav li:hover {
     background: #EEEEEE;
     cursor: pointer;
+    transition: all 0.4s linear;
 }
 
 #menu-icon {
@@ -79,7 +80,7 @@ a:hover#menu-icon {
     bottom: -510px;
     width: 750px;
     border-radius: 15px;
-    text-shadow: 0  0 18px black;
+    text-shadow: 0 0 18px black;
     /*background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.65) 25%, rgba(0, 0, 0, 0.65) 75%, transparent 100%);*/
     /*background: rgba(44, 44, 44, 0.54);*/
     /*text-shadow: 48px 48px 12px rgba(243, 245, 245, 0.77);*/
@@ -97,22 +98,29 @@ a:hover#menu-icon {
     padding: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-shadow: 0  0 18px black;
+    text-shadow: 0 0 18px black;
+
 }
-.landing-page article h1.names{
+
+.landing-page article h1.names {
     text-align: center;
     border-bottom: 3px solid white;
     width: 75%;
+    text-shadow: 0px 0px 12px black;
+
 }
 
 .landing-page article h2 {
-    font-family: "Clicker Script",sans-serif;
+    font-family: "Clicker Script", sans-serif;
     font-size: 2.8em;
     color: white;
     margin: 10px;
     padding: 15px 0 15px 0;
     text-align: center;
+    text-shadow: 0px 0px 12px black;
+
 }
+
 div.advantages {
     background-color: #98a480;
 }
@@ -125,7 +133,7 @@ div.advantages {
     display: inline-block;
     width: 250px;
     text-align: center;
-    margin: 30px;
+    margin: 40px 30px 50px 30px;
 
 }
 
@@ -133,7 +141,7 @@ div.advantages {
     content: "\f202";
     color: white;
     opacity: 0.95;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 12px black;
 }
 
 .articles h3 {
@@ -141,7 +149,7 @@ div.advantages {
     text-align: center;
     color: white;
     opacity: 0.95;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 12px black;
 }
 
 .articles p {
@@ -152,30 +160,42 @@ div.advantages {
     text-shadow: 0px 0px 5px black;
 
 }
+
 /*.container {*/
-    /*padding: 30px 0;*/
-    /*border-bottom: 3px solid #696969;*/
-    /*border-top: 3px solid #696969;*/
+/*padding: 30px 0;*/
+/*border-bottom: 3px solid #696969;*/
+/*border-top: 3px solid #696969;*/
 /*}*/
 /*.container #additional-information {*/
-    /*text-align: center;*/
-    /*width: 90%;*/
-    /*padding: 30px 0 30px 0;*/
+/*text-align: center;*/
+/*width: 90%;*/
+/*padding: 30px 0 30px 0;*/
 /*}*/
 
 /*.container #additional-information h2 {*/
-    /*text-align: center;*/
-    /*max-width: 700px;*/
+/*text-align: center;*/
+/*max-width: 700px;*/
 /*}*/
 .speed-draw {
     text-align: center;
 }
+
 .speed-draw div {
     display: inline-block;
     width: calc(40% - 50px);
     vertical-align: top;
     padding: 35px 0;
     text-align: left;
+}
+
+.speed-draw ul {
+    list-style: none;
+}
+
+.speed-draw ul li {
+    font-size: 1.4em;
+    margin: 20px;
+    font-style: italic;
 }
 
 .drawing-information {
@@ -185,11 +205,12 @@ div.advantages {
 .drawing-information h1 {
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-family: Baskerville,sans-serif;
+    font-family: Baskerville, sans-serif;
     letter-spacing: 5px;
     font-size: 1.4em;
     text-align: center;
 }
+
 .drawing-information p {
     text-align: justify;
     padding-bottom: 20px;
@@ -200,9 +221,11 @@ div.advantages {
     background-size: cover;
     height: 400px;
 }
+
 .hand-drawing {
     text-align: center;
 }
+
 .hand-drawing article {
     display: inline-block;
     width: 150px;
@@ -212,11 +235,13 @@ div.advantages {
     margin: 15px;
     vertical-align: top;
 }
+
 .hand-drawing h4 {
     font-size: 1.8em;
     padding-bottom: 15px;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 12px black;
 }
+
 .hand-drawing p {
     font-size: 1.6em;
     padding-bottom: 15px;
@@ -236,20 +261,95 @@ h3.featured-title {
     display: flex;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
+
 .flex-item {
+    display: flex;
     margin: 5px;
-    background: url("../img/2.jpg") no-repeat center;
-    background-size:cover;
     width: 250px;
-    height: 250px;
+    height: 235px;
     flex-grow: 1;
+    overflow: hidden;
+    text-align: center;
+
+}
+.flex-item img {
+    background: no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+
+}
+.flex-item:hover {
+    box-shadow: 0px 0px 15px 10px rgba(255, 5, 0, 0.75);
+    transform:scale(1);
 }
 
 footer {
-    background-color: #889470;
+    background-color: #ECE6B4;
+    min-height: 60px;
+    padding: 40px 0 40px 20px;
+}
+footer div {
+    display: inline-block;
+    vertical-align: middle;
+    color: #393939;
+    max-width: calc(50% - 30px);
+}
+footer ul {
+    list-style: none;
+    float:right;
+}
+footer ul li {
+    display: inline-block;
+    color: black;
+}
+.copyright .small-text {
+    font-size: 0.7em;
 }
 
+.font-awesome-links {
+    float:right;
+    margin-right: 20px;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitch,
+.fa-deviantart {
+    color: #393939;
+    font-size: 40px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.fa-facebook-square:hover {
+    color: #4267b2;
+    background: transparent;
+    transition: all 0.4s linear;
+}
+.fa-instagram:hover {
+    background: transparent;
+    color: #d90700;
+    transition: all 0.4s linear;
+}
+.fa-twitch:hover{
+    background: transparent;
+    color: rebeccapurple;
+    transition: all 0.4s linear;
+}
+.fa-deviantart:hover {
+    background: transparent;
+    color: #05cc47;
+    transition: all 0.4s linear;
+}
+.artstation {
+    background: transparent;
+    width: 15px;
+    height: 15px;
+}
 /*@media screen and(min-width: 610px) {*/
 /*.site-header ul li {*/
 /*display: block;*/
@@ -318,14 +418,17 @@ footer {
     .advantages .articles article p {
         font-size: 1.4em;
     }
+
     .advantages .articles article p {
         padding-bottom: 20px;
         font-size: 1.2em;
     }
+
     .advantages .articles article i {
         padding-top: 10px;
     }
-    .speed-draw div{
+
+    .speed-draw div {
         display: block;
         width: 100%;
         margin: 10px;
