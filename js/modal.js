@@ -7,11 +7,6 @@ function openModal() {
     modalImg.src = this.getAttribute("data-highres");
 }
 
-/*img.onclick = function() {
- modal.style.display = "block";
- modalImg.src = this.getAttribute("data-highres");
- }*/
-
 var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
