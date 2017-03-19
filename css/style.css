@@ -164,9 +164,8 @@ div.advantages {
 
 .speed-draw div {
     display: inline-block;
-
     vertical-align: top;
-    padding: 35px 35px;
+    padding: 35px 0 35px 0;
     text-align: left;
 }
 
@@ -179,7 +178,9 @@ div.advantages {
     margin: 20px;
     font-style: italic;
 }
-
+.drawing-information {
+    padding-right: 15px!important;
+}
 .drawing-information h1 {
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -349,7 +350,7 @@ footer ul li {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    padding: 110px 0 110px 0 ;
+    padding: 109px 0 109px 0 ;
     min-height: 540px;
     max-height: 800px;
 }
@@ -358,7 +359,7 @@ footer ul li {
     display: inline-block;
     text-align: left;
     margin: 0 auto;
-
+    vertical-align: top;
 
 }
 .contact-greeting {
@@ -386,6 +387,7 @@ footer ul li {
     min-width: 40%;
     max-width: 60%;
     padding-left: 15px;
+    padding-top: 30px;
 }
 .contact-form div {
     display: block;
@@ -409,7 +411,7 @@ input {
     border: none;
     box-shadow: 0px 0px 5px white;
     color: white;
-    font-size: 0.6em;
+    font-size: 1em;
 
 }
 
@@ -417,16 +419,16 @@ textarea {
     width: 300px;
     height: 100px;
     padding: 15px;
-    text-align: center;
+    text-align: left;
     border-radius: 15px;
     background: rgba(70, 85, 83, 0.3);
     border: none;
     box-shadow: 0px 0px 5px white;
     color: white;
-    font-size: 0.6em;
+    font-size: 1em;
     resize: none;
     position: relative;
-    left: 20px
+    left: 28px;
 
 }
 
@@ -439,29 +441,33 @@ textarea {
 
 .send-button {
     font-family: "Lemonada", sans-serif;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 700;
     padding: 15px 30px;
     background-color: #272727;
     color: #f2f2f2;
-
     margin: 30px;
     border-radius: 15px;
     border: none;
     position: relative;
-    bottom: -70px;
+    bottom: -45px;
+    left: 8px;
+    box-shadow: 0px 0px 5px white;
 }
 
 .send-button:hover {
     cursor: pointer;
     background: rgba(70, 85, 83, 0.3);
+    transition: all 0.4s linear;
 }
 
 .fa-user,
-.fa-lock{
+.fa-envelope,
+.fa-comments {
+    width: 22px;
     font-size: 1.2em;
     color: #f2f2f2;
     position: relative;
-    left: 35px;
-    bottom: -5px;
+    left: 40px;
+    bottom: -2px;
 }
