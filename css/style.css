@@ -6,15 +6,22 @@
     padding: 0;
     max-width: 1920px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: #1c1c1c;
+}
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
-    font-family: Libre, sans-serif;
+    font-family: monospace;
     font-size: 18px;
-
 }
 
 .site-top-nav {
@@ -31,11 +38,10 @@ body {
 }
 
 .site-top-nav a {
-    font-family: Baskerville, sans-serif;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 0.8em;
     text-decoration: none;
-    color: #000;
+    color: #1c1c1c;
     text-align: center;
     text-transform: uppercase;
     display: flex;
@@ -58,16 +64,27 @@ li.home {
 #menu-icon {
     display: none;
     width: 12px;
-    height: 9px;
-    background: transparent url("../img/menu-icon.png") no-repeat center;
+    height: 12px;
     padding: 25px;
     position: absolute;
     border-radius: 25px;
+
+}
+#menu-icon i {
+    font-size: 50px;
+    position: relative;
+    top: -18px;
+    left: -18px;
+    border: 1px solid #EEEEEE;
+    padding: 0 4px 0 4px;
+    border-radius: 10px;
+    color: #EEEEEE;
+
 }
 
+
 a:hover#menu-icon {
-    background-color: #444;
-    border-radius: 4px 4px 0 0;
+    opacity: 0.6;
 }
 
 .landing-page {
@@ -85,16 +102,16 @@ a:hover#menu-icon {
 }
 
 .landing-page article h1 {
-    font-family: serif;
+    font-family: monospace;
     font-weight: normal;
     font-size: 2.4em;
     line-height: 70px;
     color: #ffffff;
-    opacity: 1;
+
     text-align: center;
     padding: 0;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
     text-shadow: 0 0 18px black;
 
 }
@@ -117,20 +134,17 @@ a:hover#menu-icon {
     text-shadow: 0px 0px 12px black;
 }
 
-div.advantages {
+.articles {
+    text-align: center;
     background-color: #98a480;
 }
 
-.articles {
-    text-align: center;
-}
-
-.advantages .articles article {
+.articles article {
     display: inline-block;
     width: 250px;
     text-align: center;
     margin: 40px 30px 50px 30px;
-
+    vertical-align: top;
 }
 
 .fa-lastfm:before {
@@ -178,21 +192,25 @@ div.advantages {
     margin: 20px;
     font-style: italic;
 }
+
 .drawing-information {
-    padding-right: 15px!important;
+    padding-right: 15px !important;
 }
+
 .drawing-information h1 {
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-family: Baskerville, sans-serif;
     letter-spacing: 5px;
     font-size: 1.4em;
     text-align: center;
 }
+.drawing-information ul {
+    margin-left: 15px;
+}
 
-.drawing-information p {
-    text-align: justify;
-    padding: 10px;
+div.video iframe {
+    width: 560px;
+    height: 315px;
 }
 
 .hand-drawing {
@@ -209,9 +227,8 @@ div.advantages {
     display: inline-block;
     width: 150px;
     text-align: left;
-    color: white;
-    padding: 150px 15px 0 15px;
-    margin: 15px;
+    padding: 15px 30px 0 30px;
+    margin: 140px 10px 0 10px;
     vertical-align: top;
 }
 
@@ -219,13 +236,15 @@ div.advantages {
     font-size: 1.8em;
     padding-bottom: 15px;
     text-shadow: 0 0 12px black;
+    color: #EEEEEE;
 }
 
 .hand-drawing p {
     font-size: 1.6em;
     padding-bottom: 15px;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 12px black;
     text-transform: capitalize;
+    color: #EEEEEE;
 }
 
 h3.featured-title {
@@ -241,15 +260,14 @@ h3.featured-title {
     padding: 30px;
 }
 
+
 .flex-item {
     display: flex;
     margin: 5px;
     width: 250px;
     height: 235px;
     flex-grow: 1;
-    /*overflow: hidden;*/
     text-align: center;
-
 }
 
 .flex-item img {
@@ -263,7 +281,6 @@ h3.featured-title {
 }
 
 .flex-item:hover img {
-
     transform: scale(1.1);
 }
 
@@ -287,18 +304,42 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    color: black;
+    color: #1c1c1c;
 }
+
 .copyright {
     padding-left: 25px;
 }
+
 .copyright .small-text {
     font-size: 0.7em;
 }
 
 .font-awesome-links {
     float: right;
-    margin-right: 20px;
+    margin-right: 65px;
+}
+
+.font-awesome-links img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: -5px;
+
+    color: #393939;
+}
+
+.artstation {
+    position: relative;
+}
+
+.artstation img {
+    position: absolute;
+    transition: all 0.4s linear;
+}
+
+.artstation img.not-hovered:hover {
+    opacity: 0;
 }
 
 .fa-facebook-square,
@@ -335,11 +376,7 @@ footer ul li {
     transition: all 0.4s linear;
 }
 
-.artstation {
-    background: transparent;
-    width: 15px;
-    height: 15px;
-}
+
 /*END OF HOME PAGE CSS*/
 
 /*CONTACT PAGE CSS*/
@@ -350,7 +387,7 @@ footer ul li {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    padding: 109px 0 109px 0 ;
+    padding: 105px 0 105px 0;
     min-height: 540px;
     max-height: 800px;
 }
@@ -359,17 +396,14 @@ footer ul li {
     display: inline-block;
     text-align: left;
     margin: 0 auto;
-    vertical-align: top;
-
 }
-.contact-greeting {
 
+.contact-greeting {
     max-width: 30%;
     padding: 30px 50px;
     margin: 0 auto;
-
-
 }
+
 .contact-greeting h4 {
     color: white;
     text-align: center;
@@ -383,24 +417,24 @@ footer ul li {
     color: #8a8a8a;
     padding-top: 35px;
 }
+
 .contact-form {
     min-width: 40%;
     max-width: 60%;
     padding-left: 15px;
     padding-top: 30px;
 }
+
 .contact-form div {
     display: block;
 }
-
-/*TEST FOR CONTACT FORM*/
 
 label {
     display: block;
     height: 72px;
     margin: 10px;
-
 }
+
 input {
     width: 300px;
     padding: 15px;
@@ -409,8 +443,8 @@ input {
     border-radius: 15px;
     background: rgba(70, 85, 83, 0.3);
     border: none;
-    box-shadow: 0px 0px 5px white;
-    color: white;
+    box-shadow: 0px 0px 5px #EEEEEE;
+    color: #EEEEEE;
     font-size: 1em;
 
 }
@@ -428,36 +462,35 @@ textarea {
     font-size: 1em;
     resize: none;
     position: relative;
-    left: 28px;
-
+    left: 31px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: white;
-    font-family: "Raleway",sans-serif;
+    font-family: monospace;
     font-size: 18px;
     font-style: italic;
 }
 
 .send-button {
-    font-family: "Lemonada", sans-serif;
+    font-family: monospace;
     font-size: 1em;
     font-weight: 700;
     padding: 15px 30px;
-    background-color: #272727;
+    background: rgba(70, 85, 83, 0.3);
     color: #f2f2f2;
     margin: 30px;
     border-radius: 15px;
     border: none;
     position: relative;
     bottom: -45px;
-    left: 8px;
+    left: 10px;
     box-shadow: 0px 0px 5px white;
 }
 
 .send-button:hover {
     cursor: pointer;
-    background: rgba(70, 85, 83, 0.3);
+    background: rgba(39, 39, 39, 0.3);
     transition: all 0.4s linear;
 }
 
@@ -468,6 +501,235 @@ textarea {
     font-size: 1.2em;
     color: #f2f2f2;
     position: relative;
-    left: 40px;
-    bottom: -2px;
+    left: 43px;
+    bottom: -1px;
+}
+
+/*END OF CONTACT PAGE CSS*/
+
+/*ABOUT ME PAGE CSS*/
+.about-me {
+    background-color: #1c1c1c;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 60px 0 60px 0;
+    min-height: 540px;
+    max-height: 800px;
+}
+
+.about-me div {
+    display: inline-block;
+}
+
+.about-me .personal-info {
+    width: 30%;
+}
+
+.meet-the-artist {
+    background: url("../img/meet the artist.jpg") no-repeat;
+    background-size: contain;
+    height: 600px;
+    min-width: 40%;
+    max-width: 60%;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.personal-info {
+    margin-top: 75px;
+}
+
+.personal-info h4 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.personal-info p {
+    color: #8a8a8a;
+    padding-top: 35px;
+    text-align: left;
+}
+
+/*PORTFOLIO CSS*/
+
+.gallery {
+    display: inline-block;
+    padding: 50px 30px 80px 30px;
+    text-align: center;
+    background-color: #1c1c1c;
+
+}
+.gallery h2 {
+    font-family: monospace;
+    font-weight: 400;
+    color: #EEEEEE;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #EEEEEE;
+    padding: 10px 0 20px 0;
+    margin-bottom: 45px;
+}
+.picture {
+    display: flex;
+}
+.gallery div.picture {
+    display: inline-block;
+    margin: 5px;
+    width: 250px;
+    height: 235px;
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+}
+.gallery img {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+    background: no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transform: scale(0.9);
+    transition: all 0.7s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+img#modal-image {
+    transform: none;
+
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/* Modal Content */
+.modal-content {
+
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
 }

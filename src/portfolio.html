@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="site-top-nav">
+        <a href="#" id="menu-icon"><i class="fa fa-minus-square" aria-hidden="true"></i></a>
+        <ul class="nav-ul">
+            <li class="home"><a href="home.html">home</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="about.html">about me</a></li>
+            <li><a href="contacts.html">contact me</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main>
+    <section class="portfolio-content">
+        <div class="gallery">
+            <h2>Here are some of my recent works</h2>
+            <div class="picture">
+                    <img class="myImg" onclick="openModal(this);" src="../img/4bm-thumb.jpg" data-highres="../img/4bm.jpg" />
+            </div>
+            <div class="picture">
+            <img class="myImg" onclick="openModal(this);" src="../img/13-thumb.jpg" data-highres="../img/13.jpg" />
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/Another-thumb.jpg" data-highres="../img/Another.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/aisan%20study-thumb.jpg" data-highres="../img/aisan study.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/Flowers and Horns wip5-thumb.jpg" data-highres="../img/Flowers and Horns wip5.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/happy halloween small-thumb.jpg" data-highres="../img/happy halloween small.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/JINX!-thumb.jpg" data-highres="../img/JINX!.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/lulu50-thumb.jpg" data-highres="../img/lulu50.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/lux50-thumb.jpg" data-highres="../img/lux50.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/two 3-thumb.jpg" data-highres="../img/two 3.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/yujyu-thumb.jpg" data-highres="../img/yujyu.jpg"/>
+            </div>
+            <div class="picture">
+                <img class="myImg" onclick="openModal(this);" src="../img/doodles-thumb.jpg" data-highres="../img/doodles.jpg"/>
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <span class="close">&times;</span>
+
+                <img class="modal-content" id="modal-image">
+            </div>
+
+
+        </div>
+
+    </section>
+</main>
+<footer>
+    <div class="copyright">
+        <p>
+            Copyright &copy; 2017 Christina Angelova <br><span class="small-text">All rights reserved. All Images are the property of Christina Angelova unless stated otherwise and may not be used without written consent.</span></p>
+    </div>
+    <div class="font-awesome-links">
+        <ul>
+            <li><a href="https://www.facebook.com/chrisiadraws/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/chrisiadraws/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.twitch.tv/chrisiadraws"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+            <li><a href="http://krisi-chan.deviantart.com/"><i class="fa fa-deviantart" aria-hidden="true"></i></a></li>
+            <li class="artstation"><a href="https://www.artstation.com/artist/chrisi-a">
+                <img class="hovered" src="../img/arstation-blue.png" height="200" width="231"/>
+                <img class="not-hovered" src="../img/artstation%20color%20grey.png">
+            </a></li>
+        </ul>
+    </div>
+
+</footer>
+
+</body>
+<script src="../js/modal.js"></script>
+
+</html>
