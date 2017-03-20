@@ -288,18 +288,19 @@ footer {
     background-color: #ECE6B4;
     min-height: 60px;
     padding: 40px 0 40px 0;
+    max-height: 150px;
 }
 
 footer div {
     display: inline-block;
     vertical-align: middle;
     color: #393939;
-    max-width: calc(50% - 30px);
+    /*max-width: calc(50% - 30px);*/
 }
 
 footer ul {
     list-style: none;
-    float: right;
+
 }
 
 footer ul li {
@@ -309,6 +310,7 @@ footer ul li {
 
 .copyright {
     padding-left: 25px;
+    width: 40%;
 }
 
 .copyright .small-text {
@@ -316,8 +318,8 @@ footer ul li {
 }
 
 .font-awesome-links {
+    text-align: center;
     float: right;
-    margin-right: 65px;
 }
 
 .font-awesome-links img {
@@ -325,21 +327,33 @@ footer ul li {
     height: 40px;
     position: relative;
     bottom: -5px;
-
     color: #393939;
 }
 
-.artstation {
+.font-awesome-links a {
+    text-decoration: none;
+}
+.not-hovered {
+    position: relative;
+    left: -50px;
+    top: 5px;
+}
+.font-awesome-links li img {
     position: relative;
 }
 
-.artstation img {
+.hovered {
     position: absolute;
     transition: all 0.4s linear;
+    opacity: 1;
+    transform:  scale(0.99);
 }
 
-.artstation img.not-hovered:hover {
+
+
+img.not-hovered:hover {
     opacity: 0;
+    transition: all 0.4s linear;
 }
 
 .fa-facebook-square,
