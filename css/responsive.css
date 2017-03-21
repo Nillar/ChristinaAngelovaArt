@@ -719,11 +719,14 @@
         /*margin: 0;*/
     /*}*/
 /*}*/
-@media all and(min-width: 960px) and (max-width: 1023px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1599px) {
 
 }
-@media all and(min-width: 1024px) and (max-width: 1599px) {
-
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+    footer {
+        padding: 45px 0 42px 0;
+    }
 }
 /*@media only screen and (max-width: 700px) {*/
     /*.modal-content {*/
