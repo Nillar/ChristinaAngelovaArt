@@ -288,6 +288,7 @@ footer {
     min-height: 60px;
     padding: 40px 0 40px 0;
     max-height: 150px;
+    font-size: 0.8em;
 }
 
 footer div {
@@ -566,7 +567,7 @@ textarea {
 }
 
 .personal-info {
-    margin-top: 75px;
+    margin: 75px 15px 0 0;
 }
 
 .personal-info h4 {

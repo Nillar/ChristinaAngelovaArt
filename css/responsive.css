@@ -1,5 +1,4 @@
-
-@media only screen and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 639px) {
     body {
         font-size: 12px;
     }
@@ -36,9 +35,14 @@
         width: 100%;
     }
 
+    .landing-page {
+        width: 100%;
+        height: 650px!important;
+    }
     .landing-page article {
         width: 70%;
         text-align: center;
+        bottom: -450px!important;
     }
 
     .landing-page article h1.names {
@@ -102,6 +106,13 @@
         text-align: center;
         padding: 30px 0 20px 0;
     }
+    .flex-item {
+        margin: 0 auto!important;
+        height: 250px!important;
+        width: 250px!important;
+        padding: 10px 0 10px 0;
+    }
+
     h3.featured-title {
         margin: 20px 0 0 0;
         text-align: center;
@@ -118,7 +129,7 @@
         margin: 0 auto;
     }
     footer {
-        padding: 10px 10px 60px 10px;
+        padding: 24px 10px 60px 10px;
 
     }
 
@@ -150,8 +161,7 @@
         height: 40px;
 
     }
-    div.font-awesome-links i,
-    div.font-awesome-links img{
+    div.font-awesome-links i {
         transform: scale(0.5);
         text-align: center;
     }
@@ -211,7 +221,7 @@
         padding: 10px;
     }
     .meet-the-artist {
-        height: 300px;
+        height: 300px!important;
     }
 
     .contact {
@@ -255,15 +265,460 @@
         left: -1px;
     }
 }
-@media all and(min-width: 480px) and (max-width: 639px) {
+/*IPHONE 5 ONLY CONTACT FORM FIX IN PORTRAIT*/
+@media screen and (max-device-width: 320px) and (max-device-height: 568px){
+    body {
+        font-size: 12px;
+    }
+    .contact-form i {
+        left: 18px;
+        bottom: -33px;
+    }
+    textarea {
+        left: 0!important;
+        margin-top: 15px;
+    }
+    .send-button {
+        margin-left: 0;
+        bottom: -65px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+        font-size: 14px;
+    }
+
+    .landing-page {
+        width: 100%;
+        height: 300px;
+    }
+    .landing-page article {
+        width: 90%;
+        text-align: center;
+        bottom: -150px;
+    }
+
+    .landing-page article h1.names {
+        font-size: 1.8em;
+        line-height: 25px;
+        border-bottom: 2px solid white;
+        padding: 0 0 10px 0;
+    }
+    .landing-page article h2 {
+        font-size: 2.4em;
+        margin: 0;
+    }
+
+    .articles {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .articles article {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .articles article h3,
+    .articles article p {
+        font-size: 1.2em;
+    }
+
+    .advantages .articles article p {
+        padding-bottom: 20px;
+        font-size: 1.2em;
+    }
+
+    .advantages .articles article i {
+        padding-top: 10px;
+    }
+
+    .speed-draw div {
+        display: block;
+        text-align: center;
+    }
+
+    div.video {
+        padding: 0;
+    }
+
+    .speed-draw iframe{
+        width: 95%!important;
+
+        margin: 5px;
+        text-align: center;
+    }
+    .drawing-information {
+        padding-bottom: 20px;
+    }
+
+    .drawing-information h1 {
+        font-size: 1.3em;
+    }
+
+    .statistics article {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 21px 0 21px 0;
+    }
+    h3.featured-title {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    .featured-works {
+        display: block;
+
+    }
+    .featured-works .flex-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .flex-item {
+        margin: 0 auto;
+        height: 400px;
+        width: 400px;
+    }
+
+
+    footer div {
+        display: block;
+        padding: 10px;
+        width: 70%;
+
+    }
+
+    footer ul {
+        float: none;
+
+    }
+    div.copyright,
+    div.font-awesome-links {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    div.font-awesome-links {
+        display: inline-table;
+        text-align: center;
+    }
+
+    div.font-awesome-links li {
+        width: 40px;
+        height: 40px;
+
+    }
+    div.font-awesome-links i {
+        transform: scale(0.7);
+        text-align: center;
+    }
+
+    div.font-awesome-links img {
+
+    }
+    li.artstation {
+        position: relative;
+        right: 24px;
+    }
+    div.copyright p {
+        width: 90%;
+
+        margin: 0 auto;
+
+    }
+    .gallery {
+        padding: 0;
+    }
+    .gallery h2 {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .gallery div.picture{
+        height: 100%;
+    }
+    .modal-content {
+        margin-top: 40px;
+        width: 90%;
+    }
+
+    .about-me {
+        min-height: 500px;
+        padding-bottom: 30px;
+    }
+
+    .personal-info,
+    .meet-the-artist {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .personal-info {
+        width: 90%!important;
+        margin-bottom: 20px;
+    }
+    .personal-info h4 {
+        margin: 0;
+        padding: 0;
+    }
+    .personal-info p {
+        padding: 10px;
+    }
+    .meet-the-artist {
+        width: 100%;
+        height: 350px;
+    }
+
+    .contact {
+        display: block;
+        padding: 70px 0 70px 0;
+        text-align: center;
+    }
+    .contact div {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-greeting,
+    .contact-form {
+        max-width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+    .contact-greeting h4 {
+        padding-bottom: 15px;
+    }
+    .contact-greeting p {
+        padding-top: 10px;
+    }
+    form {
+        width: 100%;
+    }
+    label {
+        margin: 0;
+    }
+    textarea {
+        position: relative;
+        left: 30px;
+        width: 80%;
+    }
+    input {
+        width: 80%;
+    }
+    .send-button {
+        left: -1px;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .landing-page {
+        width: 100%;
+        height: 350px;
+    }
+    .landing-page article {
+        width: 90%;
+        text-align: center;
+        bottom: -190px;
+    }
+
+    .landing-page article h1.names {
+        font-size: 1.8em;
+        line-height: 25px;
+        border-bottom: 2px solid white;
+        padding: 0 0 10px 0;
+    }
+    .landing-page article h2 {
+        font-size: 2.4em;
+        padding-top: 5px;
+        margin: 0;
+    }
+    .articles article{
+        margin: 3px;
+        width: 30%;
+        padding: 10px 0 10px 0;
+    }
+
+    .speed-draw div {
+        padding: 10px;
+    }
+
+
+    .hand-drawing article {
+        padding: 0;
+        text-align: center;
+    }
+
+    .modal-content {
+        width: 50%!important;
+    }
+
+    .about-me {
+        min-height: 300px;
+        padding: 40px 0 20px 0;
+    }
+    .personal-info {
+        margin: 0;
+        width: 45%!important;
+    }
+    .personal-info h4 {
+        padding: 10px 0;
+    }
+    .personal-info p {
+        padding: 10px;
+    }
+    .meet-the-artist {
+        height: 300px;
+    }
+
+    footer {
+        padding: 30px 0 30px 0;
+    }
+
+    .contact {
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-greeting {
+        padding: 30px 0 !important;
+    }
+
+    .contact-greeting h4 {
+        font-size: 1.2em;
+        padding-bottom: 15px;
+    }
+    .contact-greeting p {
+        padding-top: 15px;
+        text-align: justify;
+    }
 
 }
-@media all and(min-width: 640px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    body {
+        font-size: 18px;
+    }
+    .landing-page {
+        height: 780px;
+    }
+    .articles article{
+        margin: 3px;
+        width: 30%;
+        padding: 10px 0 10px 0;
+    }
+    .modal {
+        padding-top: 65px;
+    }
 
-}
-@media all and(min-width: 768px) and (max-width: 959px) {
+    .about-me {
+        height: 484px;
+        padding-top: 199px;
+    }
+    .personal-info {
+        margin-top: 0;
+    }
 
+
+    .contact-greeting {
+        padding: 30px 0 !important;
+        height: 529px;
+    }
+
+    .contact-greeting h4 {
+        font-size: 1.2em;
+        padding-bottom: 15px;
+    }
+    .contact-greeting p {
+        padding-top: 15px;
+        text-align: justify;
+    }
 }
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+    body{
+        font-size: 20px;
+    }
+
+    .landing-page {
+        width: 100%;
+        height: 450px;
+    }
+    .landing-page article {
+        width: 75%;
+        text-align: center;
+        bottom: -310px;
+    }
+
+    .landing-page article h1.names {
+        font-size: 2.2em;
+        line-height: 25px;
+        border-bottom: 2px solid white;
+        padding: 0 0 10px 0;
+    }
+    .landing-page article h2 {
+        font-size: 2.4em;
+        padding-top: 5px;
+        margin: 0;
+    }
+
+    .about-me {
+        padding-top: 120px;
+        height: 380px;
+    }
+
+    .personal-info {
+        margin-top: 0;
+    }
+    .meet-the-artist {
+        height: 420px;
+    }
+
+    .contact-greeting {
+        padding: 30px 0 !important;
+        height: 529px;
+
+    }
+
+    .contact-greeting h4 {
+        font-size: 1.4em;
+        padding-bottom: 15px;
+    }
+    .contact-greeting p {
+        padding-top: 15px;
+        text-align: justify;
+    }
+}
+
+/*IPAD PRO ONLY*/
+/*@media only screen and (max-device-width: 1024px) and (max-device-height: 1366px){*/
+    /*body {*/
+        /*font-size: 22px;*/
+    /*}*/
+    /*.landing-page {*/
+        /*width: 100%;*/
+        /*height: 1050px;*/
+    /*}*/
+    /*.landing-page article {*/
+        /*width: 75%;*/
+        /*text-align: center;*/
+        /*bottom: -310px;*/
+    /*}*/
+
+    /*.landing-page article h1.names {*/
+        /*font-size: 2.2em;*/
+        /*line-height: 25px;*/
+        /*border-bottom: 2px solid white;*/
+        /*padding: 0 0 10px 0;*/
+    /*}*/
+    /*.landing-page article h2 {*/
+        /*font-size: 2.4em;*/
+        /*padding-top: 5px;*/
+        /*margin: 0;*/
+    /*}*/
+/*}*/
 @media all and(min-width: 960px) and (max-width: 1023px) {
 
 }
