@@ -87,7 +87,7 @@ a:hover#menu-icon {
 }
 
 .landing-page {
-    background: url("../img/Flowers and Horns wip5.jpg") no-repeat center center;
+    background: url("../img/Flowers and Horns wip5 - resize.jpg") no-repeat center center;
     background-size: cover;
     height: 700px;
 }
@@ -213,9 +213,6 @@ div.video iframe {
     background: url("../img/30.jpg") no-repeat;
     background-size: cover;
     height: 400px;
-}
-
-.hand-drawing {
     text-align: center;
 }
 
@@ -527,7 +524,7 @@ textarea {
 }
 
 .meet-the-artist {
-    background: url("../img/meet the artist.jpg") no-repeat;
+    background: url("../img/meet the artist - resize.jpg") no-repeat;
     background-size: contain;
     height: 600px;
     min-width: 40%;
@@ -707,10 +704,4 @@ img#modal-image {
         top: 0;
         opacity: 1
     }
-}
-
-svg:hover path#path9,
-svg:hover path#path11,
-svg:hover polygon#polygon7 {
-    fill: #13AEEF!important;
 }
