@@ -1,49 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Christina Angelova Art</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/chrisiadraws.jpg"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-<header class="site-header">
-    <nav class="site-top-nav">
-        <a href="#" id="menu-icon"><i class="fa fa-minus-square" aria-hidden="true"></i></a>
-        <ul class="nav-ul">
-            <li class="home"><a href="Index.html">home</a></li>
-            <li><a href="portfolio.html">portfolio</a></li>
-            <li><a href="about.html">about me</a></li>
-            <li><a href="contacts.html">contact me</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section class="about-me">
-        <div class="personal-info">
-            <h4>who am i?</h4>
-            <p>Hello! I'm a free lance artist and illustrator. I specialize in portraits and characters.</p>
-            <p>I primary draw and paint digitally but enjoy traditional media as well.</p>
-            <p>When I don't draw I enjoy anime, fashion and love to spend time with my friends.</p>
-        </div>
-        <div class="meet-the-artist">
-        </div>
-    </section>
-</main>
-<footer>
-    <div class="copyright">
-        <p>
-            Copyright &copy; 2017 Christina Angelova <br><span class="small-text">All rights reserved. All Images are the property of Christina Angelova unless stated otherwise and may not be used without written consent.</span></p>
-    </div>
-    <div class="font-awesome-links">
-        <ul>
-            <li><a href="https://www.facebook.com/chrisiadraws/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/chrisiadraws/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.twitch.tv/chrisiadraws"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
-            <li><a href="http://krisi-chan.deviantart.com/"><i class="fa fa-deviantart" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.artstation.com/artist/chrisi-a"><svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -55,8 +13,8 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="40px"
-   height="40px"
+   width="500px"
+   height="500px"
    viewBox="0 0 500 500"
    enable-background="new 0 0 500 500"
    xml:space="preserve"
@@ -111,10 +69,4 @@
      id="g35" /><g
      id="g37" /><g
      id="g39" /><g
-     id="g41" /></svg></a></li>
-        </ul>
-    </div>
-
-</footer>
-</body>
-</html>
+     id="g41" /></svg>

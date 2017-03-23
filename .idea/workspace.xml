@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62e42471-f1f9-4f49-9af6-2082c107f247" name="Default" comment="">
+    <list default="true" id="62e42471-f1f9-4f49-9af6-2082c107f247" name="Default" comment="Worked on the design of the contact form. Added arstation link in the footer (done with svg image). Fixed responsive for the footer and contact form - should be working properly.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/artstation.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
@@ -26,30 +27,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index.html">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="101" column="124" lean-forward="false" selection-start-line="101" selection-start-column="124" selection-end-line="101" selection-end-column="124" />
-              <folding />
+            <state relative-caret-position="546">
+              <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+              <folding>
+                <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="619" column="0" lean-forward="false" selection-start-line="619" selection-start-column="0" selection-end-line="619" selection-end-column="0" />
+            <state relative-caret-position="546">
+              <caret line="155" column="31" lean-forward="false" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
               <folding>
-                <element signature="e#0#4649#0" expanded="false" />
-                <element signature="e#4670#5011#0" expanded="false" />
-                <element signature="e#5013#5591#0" expanded="false" />
-                <element signature="e#5598#7177#0" expanded="false" />
-                <element signature="e#7179#7884#0" expanded="false" />
-                <element signature="e#7886#8898#0" expanded="false" />
-                <element signature="e#8900#9497#0" expanded="false" />
-                <element signature="e#9499#10137#0" expanded="false" />
+                <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,68 +60,75 @@
       <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="73" column="120" lean-forward="false" selection-start-line="73" selection-start-column="120" selection-end-line="73" selection-end-column="120" />
-              <folding />
+            <state relative-caret-position="223">
+              <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+              <folding>
+                <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="44" column="120" lean-forward="false" selection-start-line="44" selection-start-column="120" selection-end-line="44" selection-end-column="120" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="595" column="0" lean-forward="true" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="159">
+              <caret line="605" column="5" lean-forward="true" selection-start-line="605" selection-start-column="5" selection-end-line="605" selection-end-column="5" />
+              <folding>
+                <element signature="e#4761#5102#0" expanded="false" />
+                <element signature="e#5104#5682#0" expanded="false" />
+                <element signature="e#7463#8168#0" expanded="false" />
+                <element signature="e#8170#9182#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artstation.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/artstation.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="71" column="22" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="71" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meet the artist.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/meet the artist.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="modal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/modal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flowers and Horns wip5.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/Flowers and Horns wip5.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doodles-thumb.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/doodles-thumb.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chrisiadraws.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/chrisiadraws.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="170" column="31" lean-forward="true" selection-start-line="102" selection-start-column="16" selection-end-line="170" selection-end-column="31" />
+              <folding>
+                <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -152,6 +161,9 @@
       <find>.meet</find>
       <find>.gall</find>
       <find>.person</find>
+      <find>color</find>
+      <find>path</find>
+      <find>label</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -180,12 +192,13 @@
         <option value="$PROJECT_DIR$/js/modal.js" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/login-register.html" />
-        <option value="$PROJECT_DIR$/contacts.html" />
-        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/img/artstation.svg" />
         <option value="$PROJECT_DIR$/Index.html" />
+        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -197,8 +210,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1047" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -215,25 +229,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebBasicsProject" />
+              <option name="myItemId" value="Nillar.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebBasicsProject" />
+              <option name="myItemId" value="Nillar.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebBasicsProject" />
+              <option name="myItemId" value="Nillar.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebBasicsProject" />
+              <option name="myItemId" value="Nillar.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nillar.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nillar.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nillar.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nillar.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -243,7 +286,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -259,6 +301,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\WebstormProjects\Nillar.github.io\img" />
+      <recent name="C:\Users\Martin\WebstormProjects\Nillar.github.io" />
       <recent name="C:\Users\Martin\WebstormProjects\WebBasicsProject\img" />
       <recent name="C:\Users\Martin\WebstormProjects\WebBasicsProject\css" />
       <recent name="C:\Users\Martin\WebstormProjects\WebBasicsProject\js" />
@@ -341,6 +385,9 @@
       <workItem from="1489998883446" duration="20867000" />
       <workItem from="1490025684426" duration="33855000" />
       <workItem from="1490088928744" duration="3827000" />
+      <workItem from="1490093045750" duration="154000" />
+      <workItem from="1490097296444" duration="4065000" />
+      <workItem from="1490270463783" duration="8352000" />
     </task>
     <task id="LOCAL-00001" summary="Home page redesign and progress - added sections and footer. Added pictures to img folder">
       <created>1489839676906</created>
@@ -437,28 +484,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123288000" />
+    <option name="totallyTimeSpent" value="135859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24843423" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34700316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,13 +531,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fixed footer in index page. Added thumbnail picture for the browser tab." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/2.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/artstation.png" />
     <entry file="file://$PROJECT_DIR$/img/c7801254-969d-11e4-81f9-f5bc43fced35.png" />
     <entry file="file://$PROJECT_DIR$/img/drawing.jpg" />
     <entry file="file://$PROJECT_DIR$/img/eyes.jpg">
@@ -577,25 +623,7 @@
     <entry file="file://$PROJECT_DIR$/src/about.html" />
     <entry file="file://$PROJECT_DIR$/src/home.html" />
     <entry file="file://$PROJECT_DIR$/src/contacts.html" />
-    <entry file="file://$PROJECT_DIR$/js/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login-register.html" />
-    <entry file="file://$PROJECT_DIR$/img/arstation-blue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/artstation color grey.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/arstation.css" />
     <entry file="file://$PROJECT_DIR$/img/two 3-thumb.jpg">
       <provider selected="true" editor-type-id="images">
@@ -638,60 +666,115 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/project.css" />
-    <entry file="file://$PROJECT_DIR$/contacts.html">
+    <entry file="file://$PROJECT_DIR$/img/artstation color grey.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="73" column="120" lean-forward="false" selection-start-line="73" selection-start-column="120" selection-end-line="73" selection-end-column="120" />
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Another-thumb.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/artstation.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="71" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/arstation-blue.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="170" column="31" lean-forward="true" selection-start-line="102" selection-start-column="16" selection-end-line="170" selection-end-column="31" />
+          <folding>
+            <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="44" column="120" lean-forward="false" selection-start-line="44" selection-start-column="120" selection-end-line="44" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="101" column="124" lean-forward="false" selection-start-line="101" selection-start-column="124" selection-end-line="101" selection-end-column="124" />
-          <folding />
+        <state relative-caret-position="546">
+          <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+          <folding>
+            <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="546">
+          <caret line="155" column="31" lean-forward="false" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+          <folding>
+            <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+    <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="619" column="0" lean-forward="false" selection-start-line="619" selection-start-column="0" selection-end-line="619" selection-end-column="0" />
+        <state relative-caret-position="223">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding>
-            <element signature="e#0#4649#0" expanded="false" />
-            <element signature="e#4670#5011#0" expanded="false" />
-            <element signature="e#5013#5591#0" expanded="false" />
-            <element signature="e#5598#7177#0" expanded="false" />
-            <element signature="e#7179#7884#0" expanded="false" />
-            <element signature="e#7886#8898#0" expanded="false" />
-            <element signature="e#8900#9497#0" expanded="false" />
-            <element signature="e#9499#10137#0" expanded="false" />
+            <element signature="n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="595" column="0" lean-forward="true" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="605" column="5" lean-forward="true" selection-start-line="605" selection-start-column="5" selection-end-line="605" selection-end-column="5" />
+          <folding>
+            <element signature="e#4761#5102#0" expanded="false" />
+            <element signature="e#5104#5682#0" expanded="false" />
+            <element signature="e#7463#8168#0" expanded="false" />
+            <element signature="e#8170#9182#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -139,15 +139,14 @@
 
     footer {
         padding: 24px 10px 60px 10px;
-
     }
 
     footer div {
         display: block;
         padding: 10px;
         width: 70%;
-
     }
+
 
     footer ul {
         float: none;
@@ -167,18 +166,21 @@
     }
 
     div.font-awesome-links li {
-        width: 40px;
-        height: 40px;
-
+        width: 35px;
+        height: 35px;
+        padding: 5px;
     }
 
     div.font-awesome-links i {
-        transform: scale(0.5);
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
         text-align: center;
     }
 
-    div.font-awesome-links img {
-
+    div.font-awesome-links svg {
+        width: 30px;
+        top: 9px;
     }
 
     li.artstation {
@@ -283,11 +285,11 @@
     textarea {
         position: relative;
         left: 30px;
-        width: 80%;
+        width: 75%;
     }
 
     input {
-        width: 80%;
+        width: 75%;
     }
 
     .send-button {
@@ -420,6 +422,18 @@
 
     footer {
         padding: 30px 0 30px 0;
+    }
+
+    .font-awesome-links svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-twitch,
+    .fa-deviantart {
+        font-size: 30px;
     }
 
     .contact {
@@ -558,9 +572,9 @@
     }
 
     .landing-page article {
-        width: 90%;
+        width: 60%;
         text-align: center;
-        bottom: -500px;
+        bottom: -460px;
     }
 
     /**/
@@ -592,7 +606,7 @@
     }
 
     .landing-page article {
-        width: 50%;
+        width: 60%;
         text-align: center;
         bottom: -650px;
     }

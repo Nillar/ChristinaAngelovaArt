@@ -94,7 +94,7 @@ a:hover#menu-icon {
 
 .landing-page article {
     position: relative;
-    bottom: -510px;
+    bottom: -410px;
     width: 750px;
     border-radius: 15px;
     text-shadow: 0 0 18px black;
@@ -316,7 +316,7 @@ footer ul li {
     float: right;
 }
 
-.font-awesome-links img {
+.font-awesome-links svg {
     width: 40px;
     height: 40px;
     position: relative;
@@ -324,18 +324,15 @@ footer ul li {
     color: #393939;
 }
 
+svg:hover path#path9,
+svg:hover path#path11,
+svg:hover polygon#polygon7 {
+    fill: #13AEEF!important;
+    transition: all 0.4s linear;
+}
+
 .font-awesome-links a {
     text-decoration: none;
-}
-
-.not-hovered {
-    position: relative;
-    left: -50px;
-    top: 5px;
-}
-
-.font-awesome-links li img {
-    position: relative;
 }
 
 .font-awesome-links {
@@ -431,21 +428,22 @@ footer ul li {
 label {
     display: block;
     height: 72px;
-    margin: 10px;
+    margin: 10px 0 10px 0;
 }
+
 
 input {
     width: 300px;
     padding: 15px;
     text-align: center;
     margin-bottom: 15px;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     background: rgba(70, 85, 83, 0.3);
     border: none;
     box-shadow: 0px 0px 5px #EEEEEE;
     color: #EEEEEE;
     font-size: 1em;
-
+    outline-color: #EEEEEE;
 }
 
 textarea {
@@ -453,7 +451,7 @@ textarea {
     height: 100px;
     padding: 15px;
     text-align: left;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     background: rgba(70, 85, 83, 0.3);
     border: none;
     box-shadow: 0px 0px 5px white;
@@ -462,6 +460,7 @@ textarea {
     resize: none;
     position: relative;
     left: 31px;
+    outline-color: #EEEEEE;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -479,11 +478,11 @@ textarea {
     background: rgba(70, 85, 83, 0.3);
     color: #f2f2f2;
     margin: 30px;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     border: none;
     position: relative;
     bottom: -45px;
-    left: 10px;
+
     box-shadow: 0px 0px 5px white;
 }
 
@@ -708,4 +707,10 @@ img#modal-image {
         top: 0;
         opacity: 1
     }
+}
+
+svg:hover path#path9,
+svg:hover path#path11,
+svg:hover polygon#polygon7 {
+    fill: #13AEEF!important;
 }
